@@ -18,7 +18,7 @@ type healthResponse struct {
 func main() {
 	email := os.Getenv("EMAIL")
 	if email == "" {
-		email = "test@example.com"
+		email = "test@gmail.com"
 	}
 
 	mux := http.NewServeMux()
